@@ -1,0 +1,119 @@
+{"intents": [
+
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola","illumination","mornin","hii", "what'sup", "Hello", "Good day"],
+         "responses": ["Hello, how are you","Hi how are you", "Good to see you again", "Hi there, whats going on", "hey, ... how is your day going?"],
+         "context": [""]
+        },
+
+        
+        {"tag": "ok",
+        "patterns": ["ok","fine"],
+        "responses": [":) tell me about your day like what you have done today", ":) what do you feel right now, like what you have done today"],
+        "context": [""]
+        },
+
+        {"tag": "no response",
+                "patterns": ["nothing"],
+                "responses": ["auo come on i will tell you something interesting", ""],
+                "context": [""]
+                },
+        
+        {"tag": "question",
+                "patterns": ["what are you doing?"],
+                "responses": ["just wake up for you", "nothing just waiting for you"],
+                "context": [""]
+                },
+
+        {"tag": "Progressive Muscle Relaxation",
+                "patterns": ["stresful","anxiety","physically inactive", "discomfort", "hypertension"],
+                "responses": ["1. Choose a quiet room. \n2. Remove tight clothing or items that may cause you uneasiness. \n3. Remove tight clothing or items that may cause you uneasiness.\n4. Sit in a comfortable position.\n5. Take deep, slow breaths.\n6. Pay attention to all your muscles. Start with your face muscles. Clench your muscles as you inhale and feel your face muscles as you exhale.\n7. Repeat twice before moving on to other areas like arms, shoulders, chest, stomach, back, legs, feet."],
+                "context": [""]
+                },
+
+        {"tag": "yoga",
+                "patterns": ["just wake up","yoga?"],
+                "responses": ["ohh you know yoga will help, to stay active you today","1) Breathe as deep down into your belly as is comfortable.\n 2)Breathing in through your nose and out through your mouth. \n 3) Keep doing this for 3 to 5 minutes."],
+                "context": [""]
+                },
+
+        {"tag": "meditation",
+                "patterns": ["GoodEvening","meditate"],
+                "responses": ["good evening :), if you are free go outside and \n1) Find a quiet place where you can be alone and away from distractions.\n2) Devote all your attention to these mediations and forget about everything else going on in your life."],
+                "context": [""]
+                },
+
+      
+
+        {"tag": "enthusiastic word",
+                "patterns": ["enjoed","enjoying","played","play", "energatic", "Awesome", "loved so", "feelbetter"],
+                "responses": ["  :) good, tell me more", "   :) thats very interesting ","good, tell me more", "very nice, tell me more"],
+                "context": [""]
+                },
+
+        {"tag": "Suggestion",
+                "patterns": ["suggestion","opinion","tip", "reminder", "recommendation", "could you suggest me"],
+                "responses": ["consume food which rich with protein, magnesium and vitamin B","Eat Regularly 'dont skip any meals'", "Avoid alcohol if you are an alcoholic","avoid smoking if you are an smoker", "Get some sleep, when you’re tired" , "Meditate yourself daily", "Practice deep breathing","consume Green tea.","Talk with others"],
+                "context": [""]
+                },
+
+        {"tag": "food",
+                "patterns": ["food","eat","consume"],
+                "responses": ["eat Dark chocolate, it is good for health", "if Yogurt avalable go and eat it, it is good for health","eat bananas,almonds, Blueberries are good for helth", "eat Eggs, meat and dairy products, it provides high-quality protein and it is good for health" , "eat 'oats' is good sources of the amino acid ", "eat Citrus fruits and bell peppers. These fruits are rich in vitamin C",
+                "eat Anchovies","eat Avocados.","eat Chia seeds. it is good for health","eat Flax seeds it is testy","eat Herring it is testy","eat Mackerel it is testy.","use Olive oil for good health.","eat Oysters it is testy","eat Salmon it is delicious","eat Sardines it is delicious","eat Tuna it is delicious","eat Walnuts it is delicious"],
+                "context": [""]
+                },
+
+        {"tag": "Challenge negative thoughts",
+                "patterns": ["negativism", "distrust", "dark thoughts", "deep thoughts", "sick"],
+                "responses": ["make a table on paper & fill following information\n\n\t\tThought Log\n event | thought | Consequence(emotion & behavior) | alternate Response\n 1) ask your self 'Do I have evidence to support this thought, or am I making assumptions? Do I have good reason to be anxious?'\n2)What's the worst that could happen? Is that outcome likely?\n 3)What's the best that could happen?\n4) Will this matter a week from now, a year from now, or five years from now? "],
+                "context": [""]
+                },
+
+        {"tag": "goodbye",
+                "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+                "responses": ["Have a nice day", "Bye! Come back again soon."],
+
+                "context": [""]
+                },
+
+        {"tag": "Bot Name",
+        "patterns": ["what is your name?","yourself"," about you","tell me"],
+        "responses": ["my name is illumination which mean light","my name is illumination","my slef illumination a personal assistant"],
+        "context": [""]
+        },
+
+        {"tag": "owner",
+                "patterns": ["built you","made you","develop you"],
+                "responses": ["my developer name is Musab Inamdar"],
+                "context": [""]
+                },
+
+
+        {"tag": "illumination",
+        "patterns": ["what kind of name this? illumination", "what is the meaning of illumination"],
+        "responses": ["my name is illumination which mean light"],
+        "context": [""]
+        },
+
+        
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+
+        {"tag": "options",
+         "patterns": ["could help me"],
+         "responses": ["i will share different types of stories, it will motivate you"],
+         "context": [""]
+        }
+   ]
+}
